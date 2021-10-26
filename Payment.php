@@ -3,7 +3,7 @@
 if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 }
-clas Payment extends MY_Controller{
+class Payment extends MY_Controller{
 
     private  $cypher_name = "aes-128-cbc";
     private  $cyper_key_len = 16; 
